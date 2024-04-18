@@ -13,7 +13,7 @@ export const Hero = () => {
                     <div className="text-white">
                         <h1 className="mb-3">UNA COMPAÑÍA CON UN PROPÓSITO</h1>
                         <h4 className="mb-3">En ACCIONA creemos que existe una manera diferente de hacer negocios</h4>
-                        <a data-mdb-button-init data-mdb-ripple-init className="btn btn-outline-light btn-lg" href="/" role="button">Call to action</a>
+                        <a data-mdb-button-init data-mdb-ripple-init className="btn btn-outline-light btn-lg" href="/demo" role="button">Encuentra tu solución</a>
                     </div>
                 </div>
             </div>

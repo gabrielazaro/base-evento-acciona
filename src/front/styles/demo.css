@@ -6,3 +6,46 @@
     display: block;
     margin: 0 auto;
 }
+
+.carousel-title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    /* Asegura que esté por encima del carrusel */
+    /* Puedes cambiar esto según el diseño */
+    padding: 10px 20px;
+    /* Ajusta el relleno según sea necesario */
+    border-radius: 5px;
+    /* Opcional: agrega bordes redondeados */
+    background-color: white;
+    /* Agrega sombra al título */
+}
+
+.carousel-item {
+    width: 90%;
+    height: 400px;
+}
+
+.imagen:active {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.imagen_grafico {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.grafico_container {
+    height: 800px;
+    width: 800px;
+}
+
+.btn-asistente {
+    background-color: #FFA500;
+}
